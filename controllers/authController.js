@@ -4,11 +4,11 @@ const { SeekerAuth } = require("../models/SeekerAuth.js");
 const { ProviderAuth } = require("../models/ProviderAuth.js");
 const {ExpressError} = require("../utils/ExpressError.js");
 const { sendEmail } = require("../utils/sendEmail.js");
-const twilio = require("twilio");
+// const twilio = require("twilio");
 const { sendToken } = require("../utils/SendToken.js");
 const crypto = require("crypto");
 
-const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
+// const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
 
 
 
